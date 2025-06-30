@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shjon | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+  <!-- HEADER / NAV -->
+  <header class="site-header">
+    <div class="container">
+      <a href="#" class="logo">Shjon</a>
+      <nav>
+        <ul class="nav__list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="container">
+      <h1>Hi, I'm Shjon.</h1>
+      <p>Java &amp; Python developer who builds data-driven web apps and interactive GUIs.</p>
+      <a href="resume.pdf" class="btn">Download Résumé</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about__content">
+        <div class="about__text">
+          <p>
+            I’m a software engineer with 5+ years of experience in Java and Python. I care deeply about 
+            building accessible, inclusive user experiences—whether it’s a Swing desktop app or a static website 
+            fortified with ARIA attributes.
+          </p>
+          <p>
+            When I’m not coding, I’m reading sci-fi novels or exploring machine-learning models on public datasets.
+          </p>
+        </div>
+        <ul class="about__stats">
+          <li><strong>5+</strong> years experience</li>
+          <li><strong>3</strong> languages</li>
+          <li><strong>10+</strong> projects</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="section">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="images/project1.jpg" alt="Project 1 screenshot"/>
+          <h3>RPG Shop Inventory GUI</h3>
+          <p>Java Swing application with dynamic filtering, drag-and-drop and persistence.</p>
+        </div>
+        <div class="project-card">
+          <img src="images/project2.jpg" alt="Project 2 screenshot"/>
+          <h3>Literacy Predictor</h3>
+          <p>Python Decision Tree model forecasting literacy rates; visualized with Plotly.</p>
+        </div>
+        <div class="project-card">
+          <img src="images/project3.jpg" alt="Project 3 screenshot"/>
+          <h3>Responsive Portfolio</h3>
+          <p>HTML/CSS site with grid layouts and ARIA enhancements for screen readers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- CONTACT -->
+  <section id="contact" class="section section--light">
+    <div class="container">
+      <h2>Contact</h2>
+      <div class="contact__wrapper">
+        <form class="contact__form">
+          <label>
+            Name
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            Subject
+            <input type="text" name="subject" />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5"></textarea>
+          </label>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+        <aside class="contact__info">
+          <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+          <p>GitHub: <a href="https://github.com/yourhandle">yourhandle</a></p>
+          <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile">/in/yourprofile</a></p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Shjon. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
