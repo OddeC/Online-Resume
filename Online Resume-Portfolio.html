@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta 
+    name="viewport" 
+    content="width=device-width, initial-scale=1.0" 
+  />
+  <title>Shjon • Portfolio</title>
+  <meta 
+    name="description" 
+    content="A showcase of data-driven web apps, GUIs, and ML projects by Shjon." 
+  />
+  <!-- Google Font -->
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" 
+    rel="stylesheet" 
+  />
+  <!-- Your main stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- HEADER / NAV -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">Shjon</a>
+      <nav>
+        <ul class="nav__list">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="section section--light">
+    <div class="container">
+      <h1>Portfolio</h1>
+      <p>
+        A selection of my favorite projects—from Java Swing apps to Python ML models—
+        each with a live demo or code link.
+      </p>
+    </div>
+  </section>
+
+  <!-- PROJECT GRID -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <img src="images/project1.jpg" alt="RPG Shop Inventory GUI" />
+          <h3>RPG Shop Inventory GUI</h3>
+          <p>
+            A Java Swing desktop app with drag-and-drop, dynamic filtering
+            and SQLite persistence.
+          </p>
+          <a href="#" class="btn">View Case Study</a>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-card">
+          <img src="images/project2.jpg" alt="Literacy Predictor" />
+          <h3>Literacy Predictor</h3>
+          <p>
+            Python Decision Tree model forecasting literacy rates
+            across regions, visualized with Plotly.
+          </p>
+          <a href="#" class="btn">View Code</a>
+        </div>
+        <!-- Project 3 -->
+        <div class="project-card">
+          <img src="images/project3.jpg" alt="Responsive Portfolio Site" />
+          <h3>Responsive Portfolio Site</h3>
+          <p>
+            A mobile-first HTML/CSS site with ARIA enhancements
+            and custom CSS grid layouts.
+          </p>
+          <a href="#" class="btn">Live Demo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEMO VIDEO -->
+  <section class="section section--light">
+    <div class="container">
+      <h2>Project Demo</h2>
+      <video controls style="width:100%; max-width:720px; display:block; margin:0 auto;">
+        <source src="video/intro.mp4" type="video/mp4" />
+        Your browser doesn’t support embedded videos.
+      </video>
+    </div>
+  </section>
+
+  <!-- PROJECT SUMMARY TABLE -->
+  <section class="section">
+    <div class="container">
+      <h2>Project Overview</h2>
+      <table class="projects-table">
+        <thead>
+          <tr>
+            <th>Project</th>
+            <th>Tech Stack</th>
+            <th>Year</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>RPG Shop Inventory GUI</td>
+            <td>Java, Swing, SQLite</td>
+            <td>2024</td>
+            <td><a href="#">Details</a></td>
+          </tr>
+          <tr>
+            <td>Literacy Predictor</td>
+            <td>Python, scikit-learn, Plotly</td>
+            <td>2023</td>
+            <td><a href="#">GitHub</a></td>
+          </tr>
+          <tr>
+            <td>Responsive Portfolio Site</td>
+            <td>HTML5, CSS3, ARIA</td>
+            <td>2025</td>
+            <td><a href="#">Live</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- CALL TO ACTION -->
+  <section class="section section--light">
+    <div class="container" style="text-align:center;">
+      <p>Inspired by what you see? <a href="contact.html" class="btn">Let’s Connect</a></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Shjon. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
